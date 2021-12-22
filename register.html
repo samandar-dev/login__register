@@ -58,7 +58,7 @@
             <h2 class="form__title">Sign up</h2>
           </div>
 
-          <div class="form__input">
+          <form class="form__input" action="https://echo.htmlacademy.ru">
             <label for="input-one">
               Enter your username or email address
               <input class="input-one in-one" type="text" name="Username or email address"
@@ -72,7 +72,8 @@
               </label>
               <label for="user-nu">
                 Contact Number
-                <input class="user_nu" type="number" name="contact Number" placeholder="Contact Number" id="user-nu">
+                <input class="user_nu" type="number" max="60" min="12" name="contact Number"
+                  placeholder="Contact Number" id="user-nu">
               </label>
             </div>
 
@@ -81,8 +82,8 @@
               <input class="input-one in-two in__two" type="password" name="Password" placeholder="Password"
                 id="input_one">
             </label>
-            <a class="input__sign-in i_s_i" href="#">Sign up</a>
-          </div>
+            <button class="input__sign-in i_s_i" type="submit">Sign up</button>
+          </form>
         </div>
       </div>
 
