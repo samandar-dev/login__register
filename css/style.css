@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main__box {
+  background: #0089ed;
+  height: 458px;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: -30px;
+  padding-top: 31px;
+  display: inline-block;
+}
+
+.main__item {
+  display: flex;
+  align-items: center;
+}
+
+.main__tit {
+  width: 356px;
+  height: 224px;
+  color: #fff;
+}
+
+.main__title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+
+  color: #fff;
+}
+
+.main__title-text {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin-bottom: 22px;
+}
+
+.main__text {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.main__img {
+  padding-bottom: 48px;
+  margin: -45px 0px 0 -40px;
+}
+
+.main__form {
+  position: absolute;
+  width: 539px;
+  height: 741px;
+  left: 58%;
+
+  padding: 44px 44px 79px 44px;
+
+  background: #fff;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 40px;
+}
+
+.form__top {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__top-text {
+  font-size: 21px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.t_text-span {
+  font-weight: 600;
+  color: #0089ed;
+}
+
+.form__top--link {
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #8d8d8d;
+}
+
+.top__link {
+  text-decoration: none;
+  color: #0089ed;
+}
+
+.form__title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 82px;
+
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.sign__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.icon-google {
+  padding-right: 21px;
+  padding-left: 32px;
+  font-size: 26px;
+}
+
+.sign__link-one {
+  background: #e9f1ff;
+  border-radius: 9px;
+
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #4285F4;
+  padding: 15px 68px 14px 0;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.sign__link-two {
+  text-decoration: none;
+  padding: 12px 16px 14px 15px;
+  background: #f7f7f7;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.two {
+  margin-right: 13px;
+}
+
+.icon-facebook {
+  font-size: 29px;
+}
+
+.icon-apple {
+  font-size: 29px;
+}
+
+.input-one {
+  padding: 19px 172px 19px 25px;
+  background: #FFFFFF;
+  border: 1px solid #4285F4;
+  border-radius: 9px;
+
+  margin-top: 13px;
+  margin-bottom: 38px;
+}
+
+.input-one::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.in-two {
+  margin-bottom: 13px;
+  border: 1px solid #adadad;
+}
+
+.in__two {
+  margin-bottom: 63px;
+}
+
+.input__link {
+  font-size: 13px;
+  line-height: 19px;
+  text-decoration: none;
+  display: block;
+
+  color: #4285f4;
+  padding-bottom: 44px;
+  margin-left: 326px;
+}
+
+.us_nu {
+  display: flex;
+  align-content: inherit;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.user_nu {
+  padding: 20px 0px 16px 13px;
+  background: #FFFFFF;
+  border: 1px solid #ADADAD;
+  box-sizing: border-box;
+  border-radius: 9px;
+  margin-top: 5px;
+  width: 216px;
+  margin-right: 19px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.input__sign-in {
+  width: 451px;
+  padding: 15px 197px;
+  text-decoration: none;
+
+  background: #0089ED;
+  box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+  border-radius: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.i_s_i {
+  padding: 15px 195px;
+}
+
+.input__sign-in:hover {
+  background: #083d63;
+  transition: all 0.5s;
+}
+
+.person__item {
+  padding-top: 54px;
+}
+
+.tit__person {
+  margin-bottom: 26px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.person__menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.person__list {
+  background: #EFF8FF;
+  border-radius: 9px;
+  margin-right: 31px;
+  padding: 11px 17px 15px 17px;
+  text-align: center;
+  position: relative;
+}
+
+.person__link {
+  text-decoration: none;
+}
+
+.x {
+  position: absolute;
+  left: 80%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.person__img {
+  width: 76px;
+  height: 76px;
+  margin-top: 15px;
+}
+
+.person__title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.person__text {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #ADADAD;
+}
